@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670EB3F427D51C6000C6C36D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3F327D51C6000C6C36D /* Tests_iOS.swift */; };
+		670EB3F627D51C6000C6C36D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3F527D51C6000C6C36D /* Tests_iOSLaunchTests.swift */; };
+		670EB40327D51C6000C6C36D /* termoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3DB27D51C5E00C6C36D /* termoApp.swift */; };
+		670EB40427D51C6000C6C36D /* termoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3DB27D51C5E00C6C36D /* termoApp.swift */; };
+		670EB40527D51C6000C6C36D /* TermoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3DC27D51C5E00C6C36D /* TermoView.swift */; };
+		670EB40627D51C6000C6C36D /* TermoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EB3DC27D51C5E00C6C36D /* TermoView.swift */; };
+		670EB40727D51C6000C6C36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670EB3DD27D51C6000C6C36D /* Assets.xcassets */; };
+		670EB40827D51C6000C6C36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670EB3DD27D51C6000C6C36D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670EB3F027D51C6000C6C36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670EB3D627D51C5E00C6C36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670EB3E127D51C6000C6C36D;
+			remoteInfo = "termo (iOS)";
+		};
+		670EB3FC27D51C6000C6C36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670EB3D627D51C5E00C6C36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670EB3E727D51C6000C6C36D;
+			remoteInfo = "termo (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670EB3DB27D51C5E00C6C36D /* termoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = termoApp.swift; sourceTree = "<group>"; };
+		670EB3DC27D51C5E00C6C36D /* TermoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoView.swift; sourceTree = "<group>"; };
+		670EB3DD27D51C6000C6C36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670EB3E227D51C6000C6C36D /* termo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = termo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EB3E827D51C6000C6C36D /* termo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = termo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EB3EF27D51C6000C6C36D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EB3F327D51C6000C6C36D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		670EB3F527D51C6000C6C36D /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		670EB3FB27D51C6000C6C36D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670EB3DF27D51C6000C6C36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3E527D51C6000C6C36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3EC27D51C6000C6C36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3F827D51C6000C6C36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670EB3D527D51C5E00C6C36D = {
+			isa = PBXGroup;
+			children = (
+				670EB3DA27D51C5E00C6C36D /* Shared */,
+				670EB3F227D51C6000C6C36D /* Tests iOS */,
+				670EB3E327D51C6000C6C36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670EB3DA27D51C5E00C6C36D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				670EB3DB27D51C5E00C6C36D /* termoApp.swift */,
+				670EB3DC27D51C5E00C6C36D /* TermoView.swift */,
+				670EB3DD27D51C6000C6C36D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		670EB3E327D51C6000C6C36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670EB3E227D51C6000C6C36D /* termo.app */,
+				670EB3E827D51C6000C6C36D /* termo.app */,
+				670EB3EF27D51C6000C6C36D /* Tests iOS.xctest */,
+				670EB3FB27D51C6000C6C36D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670EB3F227D51C6000C6C36D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				670EB3F327D51C6000C6C36D /* Tests_iOS.swift */,
+				670EB3F527D51C6000C6C36D /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670EB3E127D51C6000C6C36D /* termo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EB40B27D51C6000C6C36D /* Build configuration list for PBXNativeTarget "termo (iOS)" */;
+			buildPhases = (
+				670EB3DE27D51C6000C6C36D /* Sources */,
+				670EB3DF27D51C6000C6C36D /* Frameworks */,
+				670EB3E027D51C6000C6C36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "termo (iOS)";
+			productName = "termo (iOS)";
+			productReference = 670EB3E227D51C6000C6C36D /* termo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670EB3E727D51C6000C6C36D /* termo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EB40E27D51C6000C6C36D /* Build configuration list for PBXNativeTarget "termo (macOS)" */;
+			buildPhases = (
+				670EB3E427D51C6000C6C36D /* Sources */,
+				670EB3E527D51C6000C6C36D /* Frameworks */,
+				670EB3E627D51C6000C6C36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "termo (macOS)";
+			productName = "termo (macOS)";
+			productReference = 670EB3E827D51C6000C6C36D /* termo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670EB3EE27D51C6000C6C36D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EB41127D51C6000C6C36D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				670EB3EB27D51C6000C6C36D /* Sources */,
+				670EB3EC27D51C6000C6C36D /* Frameworks */,
+				670EB3ED27D51C6000C6C36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670EB3F127D51C6000C6C36D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 670EB3EF27D51C6000C6C36D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		670EB3FA27D51C6000C6C36D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EB41427D51C6000C6C36D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				670EB3F727D51C6000C6C36D /* Sources */,
+				670EB3F827D51C6000C6C36D /* Frameworks */,
+				670EB3F927D51C6000C6C36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670EB3FD27D51C6000C6C36D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 670EB3FB27D51C6000C6C36D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670EB3D627D51C5E00C6C36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					670EB3E127D51C6000C6C36D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					670EB3E727D51C6000C6C36D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					670EB3EE27D51C6000C6C36D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 670EB3E127D51C6000C6C36D;
+					};
+					670EB3FA27D51C6000C6C36D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 670EB3E727D51C6000C6C36D;
+					};
+				};
+			};
+			buildConfigurationList = 670EB3D927D51C5E00C6C36D /* Build configuration list for PBXProject "termo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670EB3D527D51C5E00C6C36D;
+			productRefGroup = 670EB3E327D51C6000C6C36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670EB3E127D51C6000C6C36D /* termo (iOS) */,
+				670EB3E727D51C6000C6C36D /* termo (macOS) */,
+				670EB3EE27D51C6000C6C36D /* Tests iOS */,
+				670EB3FA27D51C6000C6C36D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670EB3E027D51C6000C6C36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EB40727D51C6000C6C36D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3E627D51C6000C6C36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EB40827D51C6000C6C36D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3ED27D51C6000C6C36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3F927D51C6000C6C36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670EB3DE27D51C6000C6C36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EB40527D51C6000C6C36D /* TermoView.swift in Sources */,
+				670EB40327D51C6000C6C36D /* termoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3E427D51C6000C6C36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EB40627D51C6000C6C36D /* TermoView.swift in Sources */,
+				670EB40427D51C6000C6C36D /* termoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3EB27D51C6000C6C36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EB3F627D51C6000C6C36D /* Tests_iOSLaunchTests.swift in Sources */,
+				670EB3F427D51C6000C6C36D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670EB3F727D51C6000C6C36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670EB3F127D51C6000C6C36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670EB3E127D51C6000C6C36D /* termo (iOS) */;
+			targetProxy = 670EB3F027D51C6000C6C36D /* PBXContainerItemProxy */;
+		};
+		670EB3FD27D51C6000C6C36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670EB3E727D51C6000C6C36D /* termo (macOS) */;
+			targetProxy = 670EB3FC27D51C6000C6C36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		670EB40927D51C6000C6C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		670EB40A27D51C6000C6C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		670EB40C27D51C6000C6C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.termo;
+				PRODUCT_NAME = termo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		670EB40D27D51C6000C6C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.termo;
+				PRODUCT_NAME = termo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670EB40F27D51C6000C6C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.termo;
+				PRODUCT_NAME = termo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		670EB41027D51C6000C6C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.termo;
+				PRODUCT_NAME = termo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		670EB41227D51C6000C6C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "termo (iOS)";
+			};
+			name = Debug;
+		};
+		670EB41327D51C6000C6C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "termo (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670EB41527D51C6000C6C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "termo (macOS)";
+			};
+			name = Debug;
+		};
+		670EB41627D51C6000C6C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "termo (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670EB3D927D51C5E00C6C36D /* Build configuration list for PBXProject "termo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EB40927D51C6000C6C36D /* Debug */,
+				670EB40A27D51C6000C6C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670EB40B27D51C6000C6C36D /* Build configuration list for PBXNativeTarget "termo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EB40C27D51C6000C6C36D /* Debug */,
+				670EB40D27D51C6000C6C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670EB40E27D51C6000C6C36D /* Build configuration list for PBXNativeTarget "termo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EB40F27D51C6000C6C36D /* Debug */,
+				670EB41027D51C6000C6C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670EB41127D51C6000C6C36D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EB41227D51C6000C6C36D /* Debug */,
+				670EB41327D51C6000C6C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670EB41427D51C6000C6C36D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EB41527D51C6000C6C36D /* Debug */,
+				670EB41627D51C6000C6C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670EB3D627D51C5E00C6C36D /* Project object */;
+}
